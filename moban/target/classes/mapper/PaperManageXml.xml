@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.springbus.moban.mapper.PaperManageMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="org.springbus.moban.entity.PaperManage">
+        <id column="id" property="id" />
+        <result column="clazz_id" property="clazzId" />
+        <result column="subject_id" property="subjectId" />
+        <result column="subject_name" property="subjectName" />
+        <result column="name" property="name" />
+        <result column="teacher_id" property="teacherId" />
+        <result column="teacher" property="teacher" />
+        <result column="grades" property="grades" />
+        <result column="extended_field" property="extendedField" />
+        <result column="paper_time" property="paperTime" />
+        <result column="created" property="created" />
+        <result column="created_date" property="createdDate" />
+        <result column="modified" property="modified" />
+        <result column="modified_date" property="modifiedDate" />
+    </resultMap>
+
+<!--    MyBatis 将根据 BaseResultPageMap 中定义的规则将查询结果映射到 Java 对象。-->
+    <resultMap id="BaseResultPageMap" type="org.springbus.moban.entity.PaperManageEntity">
+        <id column="id" property="id" />
+        <result column="clazz_id" property="clazzId" />
+        <result column="school_name" property="schoolName" />
+        <result column="clazz_name" property="clazzName" />
+        <result column="subject_name" property="subjectName" />
+        <result column="subject_id" property="subjectId" />
+        <result column="name" property="name" />
+        <result column="grade" property="grade" />
+        <result column="paper_time" property="paperTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, clazz_id,`name`, subject_id, subject_name, teacher_id, teacher, grades, extended_field, paper_time, created, created_date, modified, modified_date
+    </sql>
+
+<!--    通过 JOIN 操作，查询不仅获取了论文管理表中的信息，还关联了班级信息表中的相关数据。-->
+    <select id="selectPaperManagePage" resultMap="BaseResultPageMap">
+        select paper.id,paper.name,paper.clazz_id,paper.subject_name,paper.paper_time,paper.subject_id,clazz.clazz_name,clazz.school_name,clazz.grade
+        from paper_manage paper join clazz_info clazz on paper.clazz_id=clazz.id
+            ${ew.customSqlSegment}
+    </select>
+
+</mapper>

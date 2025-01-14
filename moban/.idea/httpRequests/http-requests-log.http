@@ -1,0 +1,218 @@
+POST http://localhost:8080/clazz-info/save-or-up
+Content-Type: application/json
+Content-Length: 70
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "schoolName": "城东小学",
+  "grade": "1",
+  "clazzName": "1"
+}
+
+<> 2024-12-25T024140.500.json
+
+###
+
+POST http://localhost:8080/clazz-info/save-or-up
+Content-Type: application/json
+Content-Length: 70
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "schoolName": "城东小学",
+  "grade": "1",
+  "clazzName": "1"
+}
+
+<> 2024-12-25T022850.500.json
+
+###
+
+POST http://localhost:8088/admin/acl/user/save
+Content-Type: application/json
+Content-Length: 287
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 0,
+  "username": "hanjun1234",
+  "password": "1234568",
+  "phone": "1234568900",
+  "email": "123456@qq.com",
+  "nickName": "jick",
+  "source": "小程序",
+  "status": 0,
+  "salt": "",
+  "token": "",
+  "roleIds": "",
+  "deleted": false,
+  "gmtCreate": "",
+  "gmtModified": ""
+}
+
+<> 2024-05-17T192147.200.json
+
+###
+
+POST http://localhost:8088/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 100
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "admin",
+  "password": "admin",
+  "email": "12345678@qq.com",
+  "phone": "12345678901"
+}
+
+<> 2024-04-26T123217.200.json
+
+###
+
+POST http://localhost:8088/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 100
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "admin",
+  "password": "admin",
+  "email": "12345678@qq.com",
+  "phone": "12345678901"
+}
+
+<> 2024-04-26T122953.200.json
+
+###
+
+POST http://localhost:8088/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 100
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "admin",
+  "password": "admin",
+  "email": "12345678@qq.com",
+  "phone": "12345678901"
+}
+
+<> 2024-04-26T122547.500.json
+
+###
+
+POST http://localhost:8088/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 100
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "admin",
+  "password": "admin",
+  "email": "12345678@qq.com",
+  "phone": "12345678901"
+}
+
+<> 2024-04-26T122513.500.json
+
+###
+
+POST http://localhost:8088/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 100
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "admin",
+  "password": "admin",
+  "email": "12345678@qq.com",
+  "phone": "12345678901"
+}
+
+<> 2024-04-26T115555.200.json
+
+###
+
+POST http://localhost:8088/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 103
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "admin01",
+  "password": "123456",
+  "email": "12345678@qq.com",
+  "phone": "12345678901"
+}
+
+<> 2024-04-26T115542.200.json
+
+###
+
+GET http://localhost:8088/img/get/list/img2img
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 142
+
+{
+  "fileName": "",
+  "base64String": "",
+  "account": "",
+  "imgUrl": "",
+  "operator": "",
+  "sysCode": "",
+  "pageSize": 0,
+  "pageNo": 0
+}
+
+<> 2024-04-21T142740.200.json
+
+###
+
+GET http://localhost:8088/img/get/list/txt2img?account=1234
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-21T142729.400.json
+
+###
+
+GET http://localhost:8088/img/get/img/list/txt2img?account=1234
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-21T142642.404.json
+
+###
+

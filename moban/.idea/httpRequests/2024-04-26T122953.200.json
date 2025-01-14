@@ -1,0 +1,11 @@
+{
+  "responseCode": "000",
+  "responseDesc": "SUCCESS",
+  "data": {
+    "name": "admin",
+    "token": "8ee41630ecb94029bdb35a178be60127",
+    "email": "999999@qq.com",
+    "phone": "a7c6fc20c95441aa3b8d3fd1adcb3aaa",
+    "activityTime": null
+  }
+}

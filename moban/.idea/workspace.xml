@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24cd3ddc-a32e-4b3d-bc64-ea61802804d3" name="变更" comment="用户信息">
+      <change afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/entity/ClazzInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/entity/PaperManage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/entity/PaperManageEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/entity/StudentInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/entity/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/mapper/ClazzInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/mapper/PaperManageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/mapper/StudentInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/mapper/UserInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/scheduled/ScheduledJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/service/ClazzInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/service/PaperManageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/service/StudentInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/service/UserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/service/impl/ClazzInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/service/impl/PaperManageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/service/impl/StudentInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/web/LoginUserCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/web/controller/ClazzInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/web/controller/PaperManageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/web/controller/StudentInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/web/controller/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/web/entity/ClazzEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/web/entity/StudentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/web/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ClazzInfoXml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/PaperManageXml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/StudentInfoXml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserInfoXml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f46e3b24-67b6-4c6c-b254-387bbb26557f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f46e3b24-67b6-4c6c-b254-387bbb26557f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/consumer_habit_profiling.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/department.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/employee_info.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/role_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docs/init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/HabitApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/MobanApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/config/GlobalCorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/config/GlobalCorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/emus/ResponseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/emus/ResponseCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/entity/ActivityRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/entity/AttributeInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/entity/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/entity/ConsumerInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/entity/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/entity/EmployeeInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/entity/Label.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/entity/PlanInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/entity/Sku.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/entity/Spu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/entity/SpuImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/entity/SpuLabelMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/entity/SpuSale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/entity/SpuSaleValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/exception/CommonException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/exception/CommonException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/generator/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/generator/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/ActivityRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/AttributeInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/CategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/ConsumerInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/DepartmentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/EmployeeInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/LabelMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/PlanInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/RoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/SkuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/SpuImageMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/SpuLabelMappingMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/SpuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/SpuSaleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/SpuSaleValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/xml/ActivityRecordXml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/xml/AttributeInfoXml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/xml/CategoryXml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/xml/ConsumerInfoXml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/xml/DepartmentXml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/xml/EmployeeInfoXml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/xml/LabelXml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/xml/PlanInfoXml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/xml/RoleXml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/xml/SkuXml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/xml/SpuImageXml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/xml/SpuLabelMappingXml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/xml/SpuSaleValueXml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/xml/SpuSaleXml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/mapper/xml/SpuXml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/ActivityRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/AttributeInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/ConsumerInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/DepartmentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/EmployeeInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/LabelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/PlanInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/SkuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/SpuImageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/SpuLabelMappingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/SpuSaleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/SpuSaleValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/SpuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/impl/ActivityRecordServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/impl/AttributeInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/impl/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/impl/ConsumerInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/impl/DepartmentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/impl/EmployeeInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/impl/LabelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/impl/PlanInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/impl/RoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/impl/SkuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/impl/SpuImageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/impl/SpuLabelMappingServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/impl/SpuSaleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/impl/SpuSaleServiceValueImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/service/impl/SpuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/utils/AESUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/utils/AESUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/utils/CommonUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/utils/HttpClientUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/utils/HttpUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/utils/ImageUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/utils/JacksonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/utils/JacksonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/utils/MapBuildComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/utils/MapBuildComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/utils/MaskUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/utils/MaskUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/controller/ActivityRecordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/controller/AttributeInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/controller/CategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/controller/ConsumerInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/controller/DepartmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/controller/EmployeeInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/controller/LabelController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/controller/PlanInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/controller/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/controller/SkuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/controller/SpuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/controller/SpuImageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/controller/SpuLabelMappingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/controller/SpuSaleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/entity/AllRoleEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/entity/AssignRoleEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/entity/AttrValueEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/entity/SkuAttrValueList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/entity/SkuSaleAttrValueList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/entity/SpuImageEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/entity/SpuSaleAttrList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/entity/SpuSaleAttrValueList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/filiter/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/web/filiter/LoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/request/BaseRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/web/request/BaseRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/request/PlanInfoRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/request/SkuInfoRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/response/AttributeInfoResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/response/CommonResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/web/response/CommonResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/response/ConsumerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/web/response/ConsumerResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/response/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/web/response/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/response/PageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springbus/moban/web/response/PageResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/response/PlanResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/response/RoleResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/response/SkuResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springbus/habit/web/response/SpuResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserModelInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/StableDiffusionServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/StableDiffusionServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="$USER_HOME$/maven-3.9.1" />
+        <option name="localRepository" value="$USER_HOME$/Repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="18" />
+        <option name="workspaceImportForciblyTurnedOn" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2fCDvwhfiDjZ2q5rznOifOq1DS0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.WebUIApplication.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;HTTP 请求.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.generated-requests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.generated-requests | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.generated-requests | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.generated-requests | #7.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.habit [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.habit [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.habit [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.moban [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.webui-api [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.webui-api [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.HabitApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MobanApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.WebUIApplication.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;SQL 插入&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/apple/work-code/moban/src/main/java/org/springbus/moban&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.30114943&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;0a6fd59758fbd546b9e5eb9e81d6e5fe&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.CodeGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.CommonUtil.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.DreamBoothApi.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.GuavaCacheExample.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ImageServiceImpl.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.ImageUtil.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.LoginFilter.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.LoginUserCache.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ScheduledJob.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.UserInfoController.executor&quot;: &quot;Run&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.springbus.sd.service.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/springbus/moban" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/springbus/moban/service/impl" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/springbus/moban/mapper" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/springbus/moban/mapper/xml" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/springbus/habit" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/springbus/moban/mapper/xml" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/springbus/hbit/mapper/xml" />
+      <recent name="$PROJECT_DIR$/models" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.springbus.hbit.entity" />
+      <recent name="org.springbus.moban.utils" />
+      <recent name="org.springbus.habit.service.impl" />
+      <recent name="org.springbus.habit.service" />
+      <recent name="org.springbus.habit.mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MobanApplication">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.springbus.moban.generator.CodeGenerator" />
+      <module name="moban" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.springbus.moban.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginUserCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.springbus.moban.web.LoginUserCache" />
+      <module name="moban" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.springbus.moban.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generated-requests | #7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="#7" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="MobanApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="moban" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.springbus.moban.MobanApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP 请求.generated-requests | #7" />
+      <item itemvalue="Spring Boot.MobanApplication" />
+      <item itemvalue="应用程序.LoginUserCache" />
+      <item itemvalue="应用程序.CodeGenerator" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP 请求.generated-requests | #7" />
+        <item itemvalue="应用程序.LoginUserCache" />
+        <item itemvalue="应用程序.CodeGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="24cd3ddc-a32e-4b3d-bc64-ea61802804d3" name="变更" comment="" />
+      <created>1713296400687</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713296400687</updated>
+      <workItem from="1713296403624" duration="865000" />
+      <workItem from="1713368818404" duration="1413000" />
+      <workItem from="1713432318346" duration="122000" />
+      <workItem from="1713532189491" duration="40000" />
+      <workItem from="1713588222554" duration="607000" />
+      <workItem from="1713596972836" duration="451000" />
+      <workItem from="1713597428559" duration="612000" />
+      <workItem from="1713598047330" duration="63000" />
+      <workItem from="1713598246959" duration="5035000" />
+      <workItem from="1713603414700" duration="899000" />
+      <workItem from="1713616812429" duration="1945000" />
+      <workItem from="1713669269325" duration="12801000" />
+      <workItem from="1713691418710" duration="16560000" />
+      <workItem from="1713716259137" duration="7000" />
+      <workItem from="1713716271293" duration="107000" />
+      <workItem from="1713753618268" duration="1106000" />
+      <workItem from="1713755033085" duration="558000" />
+      <workItem from="1713869461373" duration="28000" />
+      <workItem from="1713877408546" duration="551000" />
+      <workItem from="1714039475991" duration="30000" />
+      <workItem from="1714046120274" duration="4661000" />
+      <workItem from="1714103429251" duration="4689000" />
+      <workItem from="1714146897909" duration="82000" />
+      <workItem from="1714370196326" duration="824000" />
+      <workItem from="1714374490556" duration="984000" />
+      <workItem from="1714408234662" duration="6000" />
+      <workItem from="1714408251684" duration="2255000" />
+      <workItem from="1714459560437" duration="53000" />
+      <workItem from="1714495650456" duration="253000" />
+      <workItem from="1714495908118" duration="447000" />
+      <workItem from="1714496361194" duration="422000" />
+      <workItem from="1714496788304" duration="249000" />
+      <workItem from="1714497042641" duration="174000" />
+      <workItem from="1714532817949" duration="1365000" />
+      <workItem from="1714535647521" duration="95000" />
+      <workItem from="1715175787214" duration="629000" />
+      <workItem from="1715228976750" duration="4000" />
+      <workItem from="1715257906874" duration="625000" />
+      <workItem from="1715265299587" duration="26000" />
+      <workItem from="1715265853400" duration="80000" />
+      <workItem from="1715279102886" duration="92000" />
+      <workItem from="1715281556854" duration="2495000" />
+      <workItem from="1715331233165" duration="9000" />
+      <workItem from="1715848461479" duration="88000" />
+      <workItem from="1715849513153" duration="13960000" />
+      <workItem from="1715863854946" duration="50381000" />
+      <workItem from="1716015739836" duration="28486000" />
+      <workItem from="1716174606111" duration="5437000" />
+      <workItem from="1716198978910" duration="4772000" />
+      <workItem from="1716306213064" duration="5736000" />
+      <workItem from="1716358997885" duration="128000" />
+      <workItem from="1716808220461" duration="2100000" />
+      <workItem from="1716865306695" duration="90000" />
+      <workItem from="1718431103933" duration="280000" />
+      <workItem from="1718431392891" duration="7461000" />
+      <workItem from="1718444230346" duration="36000" />
+      <workItem from="1718444663661" duration="3015000" />
+      <workItem from="1734604609891" duration="17000" />
+      <workItem from="1734626018667" duration="55000" />
+      <workItem from="1734626166148" duration="330000" />
+      <workItem from="1734626517705" duration="611000" />
+      <workItem from="1734677991501" duration="237000" />
+      <workItem from="1734680547806" duration="230000" />
+      <workItem from="1734681856639" duration="18220000" />
+      <workItem from="1734714639943" duration="4875000" />
+      <workItem from="1734764221017" duration="90000" />
+      <workItem from="1734765592515" duration="15761000" />
+      <workItem from="1734854738638" duration="3352000" />
+      <workItem from="1734861183084" duration="6561000" />
+      <workItem from="1734881796213" duration="1655000" />
+      <workItem from="1734888456385" duration="911000" />
+      <workItem from="1734939633880" duration="10000" />
+      <workItem from="1734943049253" duration="35000" />
+      <workItem from="1734946417219" duration="22000" />
+      <workItem from="1735035448679" duration="32702000" />
+      <workItem from="1735109238856" duration="21899000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1713296872794</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713296872795</updated>
+    </task>
+    <task id="LOCAL-00002" summary="txtToImg">
+      <created>1713432427919</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713432427919</updated>
+    </task>
+    <task id="LOCAL-00003" summary="model 接口">
+      <option name="closed" value="true" />
+      <created>1713604405826</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713604405826</updated>
+    </task>
+    <task id="LOCAL-00004" summary="sb 任务执行接口">
+      <option name="closed" value="true" />
+      <created>1713681041960</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713681041960</updated>
+    </task>
+    <task id="LOCAL-00005" summary="sb 任务执行接口">
+      <option name="closed" value="true" />
+      <created>1713681920805</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713681920805</updated>
+    </task>
+    <task id="LOCAL-00006" summary="sb 任务执行接口">
+      <option name="closed" value="true" />
+      <created>1713681964242</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713681964242</updated>
+    </task>
+    <task id="LOCAL-00007" summary="sb 任务执行接口">
+      <option name="closed" value="true" />
+      <created>1713682108411</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713682108411</updated>
+    </task>
+    <task id="LOCAL-00008" summary="逻辑优化、增加token">
+      <option name="closed" value="true" />
+      <created>1713709486979</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713709486979</updated>
+    </task>
+    <task id="LOCAL-00009" summary="逻辑优化、增加token">
+      <option name="closed" value="true" />
+      <created>1713716353036</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713716353036</updated>
+    </task>
+    <task id="LOCAL-00010" summary="逻辑优化、增加token">
+      <option name="closed" value="true" />
+      <created>1713754631489</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713754631489</updated>
+    </task>
+    <task id="LOCAL-00011" summary="逻辑优化、增加token">
+      <option name="closed" value="true" />
+      <created>1713754685373</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713754685373</updated>
+    </task>
+    <task id="LOCAL-00012" summary="逻辑优化、增加token">
+      <option name="closed" value="true" />
+      <created>1713755573564</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713755573564</updated>
+    </task>
+    <task id="LOCAL-00013" summary="逻辑优化">
+      <option name="closed" value="true" />
+      <created>1714050767653</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714050767653</updated>
+    </task>
+    <task id="LOCAL-00014" summary="逻辑优化">
+      <option name="closed" value="true" />
+      <created>1714104327676</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714104327676</updated>
+    </task>
+    <task id="LOCAL-00015" summary="逻辑优化">
+      <option name="closed" value="true" />
+      <created>1714105314788</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714105314788</updated>
+    </task>
+    <task id="LOCAL-00016" summary="逻辑优化">
+      <option name="closed" value="true" />
+      <created>1714105730945</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1714105730945</updated>
+    </task>
+    <task id="LOCAL-00017" summary="逻辑优化">
+      <option name="closed" value="true" />
+      <created>1714106649354</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1714106649354</updated>
+    </task>
+    <task id="LOCAL-00018" summary="逻辑优化">
+      <option name="closed" value="true" />
+      <created>1714107739296</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1714107739296</updated>
+    </task>
+    <task id="LOCAL-00019" summary="逻辑优化">
+      <option name="closed" value="true" />
+      <created>1714410953055</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1714410953055</updated>
+    </task>
+    <task id="LOCAL-00020" summary="init">
+      <option name="closed" value="true" />
+      <created>1715917753098</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1715917753098</updated>
+    </task>
+    <task id="LOCAL-00021" summary="init">
+      <option name="closed" value="true" />
+      <created>1715917788865</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1715917788865</updated>
+    </task>
+    <task id="LOCAL-00022" summary="init">
+      <option name="closed" value="true" />
+      <created>1715917857005</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1715917857005</updated>
+    </task>
+    <task id="LOCAL-00023" summary="用户信息">
+      <option name="closed" value="true" />
+      <created>1715933508723</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1715933508723</updated>
+    </task>
+    <task id="LOCAL-00024" summary="用户信息">
+      <option name="closed" value="true" />
+      <created>1716004297282</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1716004297282</updated>
+    </task>
+    <task id="LOCAL-00025" summary="用户信息">
+      <option name="closed" value="true" />
+      <created>1716024393502</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1716024393502</updated>
+    </task>
+    <task id="LOCAL-00026" summary="用户信息">
+      <option name="closed" value="true" />
+      <created>1716106070726</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1716106070726</updated>
+    </task>
+    <task id="LOCAL-00027" summary="用户信息">
+      <option name="closed" value="true" />
+      <created>1716136520380</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1716136520380</updated>
+    </task>
+    <task id="LOCAL-00028" summary="用户信息">
+      <option name="closed" value="true" />
+      <created>1716312555388</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1716312555388</updated>
+    </task>
+    <task id="LOCAL-00029" summary="用户信息">
+      <option name="closed" value="true" />
+      <created>1716315162793</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1716315162793</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="txtToImg" />
+    <MESSAGE value="model 接口" />
+    <MESSAGE value="sb 任务执行接口" />
+    <MESSAGE value="逻辑优化、增加token" />
+    <MESSAGE value="逻辑优化" />
+    <MESSAGE value="init" />
+    <MESSAGE value="用户信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户信息" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/springbus/moban/api/DreamBoothApi.java</url>
+          <line>200</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/springbus/moban/service/impl/ImageServiceImpl.java</url>
+          <line>141</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/springbus/moban/web/ImageController.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/springbus/moban/web/ImageController.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/springbus/moban/web/LoginUserCache.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/springbus/moban/web/controller/UserInfoController.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

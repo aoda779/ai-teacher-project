@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.springbus.moban.mapper.ClazzInfoMapper">
+
+<!--  即使数据库列名和 Java 属性名不完全一致（如大小写不同或使用了下划线），通过 <resultMap> 可以明确指出它们之间的对应关系。id="BaseResultMap"：为这个结果映射分配一个唯一的标识符，可以在其他地方引用它（例如在 SQL 查询中）-->
+    <resultMap id="BaseResultMap" type="org.springbus.moban.entity.ClazzInfo">
+<!-- <id>：表示这是一个主键字段的映射。主键字段通常用于唯一标识一行记录，在某些情况下可以帮助 MyBatis 更有效地处理缓存和关联关系。-->
+        <id column="id" property="id" />
+<!-- <result>：表示普通字段的映射，用于非主键字段。-->
+        <result column="grade_id" property="gradeId" />
+        <result column="grade" property="grade" />
+        <result column="school_name" property="schoolName" />
+        <result column="clazz_name" property="clazzName" />
+        <result column="user_id" property="userId" />
+        <result column="created" property="created" />
+        <result column="created_date" property="createdDate" />
+        <result column="modified" property="modified" />
+        <result column="modified_date" property="modifiedDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+<!--    <sql>：这是 MyBatis 中用于定义可重用 SQL 片段的元素。
+id="Base_Column_List"：为这个 SQL 片段分配一个唯一的标识符，可以在其他地方通过这个 ID 引用它。
+列名列表：在 <sql> 元素内部列出了一组逗号分隔的列名。这些列名对应于数据库表中的字段，并且它们通常是你希望在查询中选择的所有或部分列。-->
+    <sql id="Base_Column_List">
+        id, grade_id, grade, school_name, clazz_name, user_id, created, created_date, modified, modified_date
+    </sql>
+
+</mapper>
